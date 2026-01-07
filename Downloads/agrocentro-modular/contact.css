@@ -1,0 +1,299 @@
+/* =========================
+   HERO CONTACTO
+========================= */
+.contact-hero {
+  background: linear-gradient(135deg, #1e8f4f 0%, #15703d 100%);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.contact-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* =========================
+   CONTACTO SECCION
+========================= */
+.contact-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7f6 0%, #e8f5e9 100%);
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.contact-info-side h2 {
+  font-size: 32px;
+  color: #1e8f4f;
+  margin-bottom: 15px;
+}
+
+.contact-info-side > p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.detail-icon {
+  width: 50px;
+  height: 50px;
+  background: #1e8f4f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.detail-text h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.detail-text a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.detail-text a:hover {
+  color: #1e8f4f;
+}
+
+.whatsapp-direct-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  padding: 14px 30px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-direct-btn:hover {
+  background: #128C7E;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(37, 211, 102, 0.3);
+}
+
+/* =========================
+   FORMULARIO
+========================= */
+.contact-form-side {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #1e8f4f;
+  box-shadow: 0 0 0 3px rgba(30, 143, 79, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-group select {
+  cursor: pointer;
+  background-color: white;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;
+  background: #1e8f4f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #15703d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 143, 79, 0.3);
+}
+
+/* =========================
+   UBICACIONES
+========================= */
+.locations-section {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.locations-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.locations-container h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #1e8f4f;
+  margin-bottom: 40px;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.location-card {
+  background: #f8f9fa;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.location-map {
+  height: 250px;
+}
+
+.location-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.location-info {
+  padding: 25px;
+  text-align: center;
+}
+
+.location-info h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.location-info p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.location-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #1e8f4f;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.location-btn:hover {
+  background: #15703d;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   RESPONSIVE CONTACT
+========================= */
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-info-side {
+    text-align: center;
+  }
+  
+  .contact-detail-item {
+    justify-content: center;
+  }
+  
+  .whatsapp-direct-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-hero h1 { font-size: 32px; }
+}
